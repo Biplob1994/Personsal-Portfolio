@@ -1,27 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.sidebar{
-    width: 15vw;
-    background-color: oldlace;
-    font-family: 'Raleway', sans-serif;
-        font-family: 'Rubik', sans-serif;
-       
+.sidebar {
+  width: 12vw;
+  background-color: rgba(255, 219, 225, 0.925);
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  height: 100vh;
 }
-.nav-list li{
-    list-style-type: none;
-    padding: 25px;
-    font-size: 20px;
-    
+.sidebar nav {
+  padding: 25px;
 }
-.container{
-    display: flex;
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 20px 0;
+  font-weight: bold;
 }
-.main{
-    width: 85vw;
-    background-color: azure;
-    text-align: center;
+.container {
+  display: flex;
+}
+.main {
+  width: 88vw;
+  background-color: oldlace;
+  text-align: center;
+}
+.infocontainer {
+  background-color: pink;
+  width: 80vw;
+  height: 60vh;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.devpic img {
+  height: 65vh;
+}
+.hello {
+  font-size: 42px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: rgb(2, 28, 255);
+  margin-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+}
+.about {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+.more-about {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.buttons {
+  margin: 30px;
+}
+.buttons button {
+  padding: 10px 25px;
+  background-color: rgb(247, 158, 24);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
 }
