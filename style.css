@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 15vw;
+    background-color: oldlace;
+    font-family: 'Raleway', sans-serif;
+        font-family: 'Rubik', sans-serif;
+       
+}
+.nav-list li{
+    list-style-type: none;
+    padding: 25px;
+    font-size: 20px;
+    
+}
+.container{
+    display: flex;
+}
+.main{
+    width: 85vw;
+    background-color: azure;
+    text-align: center;
+}
